@@ -11,7 +11,7 @@ function modifyUser(initialValues: Partial<UserType>) {
 }
 
 
-modifyUser({ 
+createOrUpdateUser({ 
   email: 'user@mail.com', 
   userPassword: 'password123' 
 });  
